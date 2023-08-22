@@ -25,6 +25,7 @@
     margin-bottom: 8rem;
     line-height: 1.6;
     font-size: 1.5rem;
+    height: 10rem;
   }
 
   .title {
@@ -41,6 +42,7 @@
     border-radius: 50px;
     text-transform: capitalize;
     transition: all ease 0.2s;
+    font-size: 1.5rem;
     &:active {
       background-color: transparent;
       color: $white-paragraphs;
@@ -56,5 +58,77 @@
   }
   .btn3 {
     color: $Very-dark-cyan;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    max-width: 85rem;
+
+    .title {
+      font-size: 2.5rem;
+    }
+
+    .description {
+      font-size: 1.3rem;
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .container {
+    max-width: 70rem;
+
+    .description {
+      font-size: 1rem;
+      margin-bottom: 4rem;
+    }
+
+    .btn {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 645px) {
+  .container {
+    max-width: 60rem;
+    .btn {
+      font-size: 0.6rem;
+    }
+
+    .card {
+      padding: 3rem;
+    }
+
+    .description {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+      height: 8rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .container {
+    flex-direction: column;
+    max-width: 35rem;
+
+    .title {
+      font-size: 4rem;
+    }
+    .card {
+      padding: 5rem;
+    }
+
+    .description {
+      font-size: 1.5rem;
+      margin-bottom: 6rem;
+    }
+
+    .btn {
+      font-size: 1.5rem;
+    }
   }
 }
