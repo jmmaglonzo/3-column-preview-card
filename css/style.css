@@ -1,0 +1,79 @@
+/* PRIMARY COLORS */
+/* NEUTRAL COLORS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--verylightgray);
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 90rem;
+}
+.container .sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+.container .suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.container .luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+.container .card {
+  padding: 5rem;
+}
+.container .description {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 8rem;
+  line-height: 1.6;
+  font-size: 1.5rem;
+}
+.container .title {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  margin: 3rem 0;
+  font-size: 3rem;
+}
+.container .btn {
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  text-transform: capitalize;
+  transition: all ease 0.2s;
+}
+.container .btn:active {
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 2px solid white;
+}
+.container .btn1 {
+  color: hsl(31, 77%, 52%);
+}
+.container .btn2 {
+  color: hsl(184, 100%, 22%);
+}
+.container .btn3 {
+  color: hsl(179, 100%, 13%);
+}

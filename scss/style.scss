@@ -1,0 +1,60 @@
+@import "configs";
+
+.container {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 90rem;
+
+  .sedans {
+    background-color: $Bright-orange;
+  }
+  .suvs {
+    background-color: $Dark-cyan;
+  }
+  .luxury {
+    background-color: $Very-dark-cyan;
+  }
+
+  .card {
+    padding: 5rem;
+  }
+
+  .description {
+    color: $white-paragraphs;
+    margin-bottom: 8rem;
+    line-height: 1.6;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    color: $verylightgray;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", cursive;
+    margin: 3rem 0;
+    font-size: 3rem;
+  }
+
+  .btn {
+    background-color: $verylightgray;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    text-transform: capitalize;
+    transition: all ease 0.2s;
+    &:active {
+      background-color: transparent;
+      color: $white-paragraphs;
+      border: 2px solid white;
+    }
+  }
+
+  .btn1 {
+    color: $Bright-orange;
+  }
+  .btn2 {
+    color: $Dark-cyan;
+  }
+  .btn3 {
+    color: $Very-dark-cyan;
+  }
+}
