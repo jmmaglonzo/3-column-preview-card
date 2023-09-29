@@ -1,0 +1,29 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./*.html"],
+  theme: {
+    extend: {
+      colors: {
+        brightOrange: "hsl(31, 77%, 52%)",
+        darkCyan: "hsl(184, 100%, 22%)",
+        veryDarkCyan: "hsl(179, 100%, 13%)",
+
+        transparentWhite: "hsla(0, 0%, 100%, 0.75)",
+        lightGray: "hsl(0, 0%, 95%)",
+      },
+
+      fontFamily: {
+        headings: ["Big Shoulders Display", "cursive"],
+        paragraph: ["Lexend Deca", "sans-serif"],
+      },
+
+      width: {
+        custom: "50rem",
+      },
+      height: {
+        custom: "26.25rem",
+      },
+    },
+  },
+  plugins: [],
+};

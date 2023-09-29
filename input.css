@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-3xl text-white font-headings my-4 uppercase;
+  }
+
+  p {
+    @apply text-sm text-transparentWhite font-paragraph md:mt-8 md:mb-20 my-8;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-lightGray px-4 py-2
+    rounded-full cursor-pointer hover:bg-transparent hover:text-white hover:border-2 hover:border-slate-100 active:translate-x-1 active:translate-y-1 duration-200 font-semibold;
+  }
+
+  .btn-1 {
+    @apply text-brightOrange;
+  }
+
+  .btn-2 {
+    @apply text-darkCyan;
+  }
+
+  .btn-3 {
+    @apply text-veryDarkCyan;
+  }
+}
+
+.card {
+  @apply md:p-8 p-12;
+}
